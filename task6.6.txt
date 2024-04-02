@@ -1,0 +1,9 @@
+<form>
+  <fieldset>
+    <legend>Employee Type:</legend>
+    <input type="radio" id="employeeType" name="employeeType" value="salaried">
+    <label for="employeeType">Salaried</label><br>
+    <input type="radio" id="employeeType" name="employeeType" value="ownBusiness">
+    <label for="employeeType">Own Business</label>
+  </fieldset>
+</form>

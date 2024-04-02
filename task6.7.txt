@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Employee Type Form</title>
+</head>
+<body>
+  <h1>Employee Type Form</h1>
+  <form>
+    <fieldset>
+      <legend>Employee Type:</legend>
+      <input type="radio" id="employeeTypeSalaried" name="employeeType" value="salaried">
+      <label for="employeeTypeSalaried">Salaried</label><br>
+      <input type="radio" id="employeeTypeBusiness" name="employeeType" value="ownBusiness">
+      <label for="employeeTypeBusiness">Own Business</label>
+    </fieldset>
+  </form>
+</body>
+</html>

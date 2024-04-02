@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/action_page.php" method="post">
+  <h2>HTML Form Elements</h2>
+  <div class="container">
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname" placeholder="Your name..">
+    <br>
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname" placeholder="Your last name..">
+    <br>
+    <label for="lname">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Your email..">
+    <br>
+    <label for="subject">Subject:</label>
+    <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+    <br>
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <br>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label>
+    <br>
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday">
+    <br>
+    <label for="vehicle">Vehicle:</label>
+    <select id="vehicle" name="vehicle">
+      <option value="car">Car</option>
+      <option value="bike">Bike</option>
+      <option value="boat">Boat</option>
+    </select>
+    <br>
+    <label for="file">File:</label>
+    <input type="file" id="file" name="file">
+    <br>
+    <label>
+      <input type="checkbox" name="vehicle1" value="Bike"> I have a bike
+    </label>
+    <br>
+    <label>
+      <input type="checkbox" name="vehicle2" value="Car"> I have a car
+    </label>
+    <br>
+    <button type="submit">Submit</button>
+  </div>
+</form>
+
+</body>
+</html>

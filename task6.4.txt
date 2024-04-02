@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Programming Languages and Frameworks</title>
+</head>
+<body>
+  <h1>Programming Languages and Frameworks</h1>
+  <h2>Programming Languages</h2>
+  <ul>
+    <li>JavaScript
+      <ul>
+        <li>Angular</li>
+        <li>React</li>
+        <li>Vue.js</li>
+      </ul>
+    </li>
+    <li>Python
+      <ul>
+        <li>Django Framework</li>
+        <li>Flask Framework</li>
+      </ul>
+    </li>
+    <li>Java
+      <ul>
+        <li>Spring</li>
+        <li>Maven</li>
+        <li>Hibernate</li>
+      </ul>
+    </li>
+  </ul>
+  <h2>Databases</h2>
+  <ul>
+    <li>MySQL</li>
+    <li>MongoDB</li>
+    <li>Cassandra</li>
+  </ul>
+</body>
+</html>
